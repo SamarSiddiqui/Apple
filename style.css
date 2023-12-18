@@ -208,8 +208,8 @@ ul {
 .shopNow>h5 {
   color: white;
   font-weight: lighter;
-  font-size: 15px;
-  padding-top: 10px;
+  font-size: 14px;
+  padding-top: 15px;
 }
 
 .shopNow>h5>a {
@@ -301,13 +301,13 @@ h5>a>i {
 /* FirstPage Starts-Here */
 .firstPage {
   width: 100vw;
-  height: 75vh;
+  height: auto;
   position: relative;
 }
 
 nav>.headingFirst {
   height: 220px;
-  color: white;
+  color: gold;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -359,7 +359,6 @@ nav>.headingFirst>h3 {
   height: auto;
   display: block;
   transform: scaleY(1.1);
-  margin-bottom: 10px;
 }
 
 .firstPage>.titaniumImg>.iphonePro-2 {
@@ -377,6 +376,7 @@ nav>.headingFirst>h3 {
 /* iPhone15Wrapper Starts */
 .iPhone15Wrapper {
   width: 100vw;
+  height:auto;
   text-align: center;
   background-color: rgb(245, 245, 245);
   margin-bottom: 12px;
@@ -850,8 +850,9 @@ video {
   max-width: 100%;
   overflow: hidden;
   position: relative;
-  height: 117vh;
+  height: auto;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .slider {
@@ -921,9 +922,13 @@ video {
 
 .apple-content {
   width: 1000px;
-  height: 18.31em;
+  height: auto;
   display: block;
   border-bottom: 1px solid #d2d2d7;
+}
+
+.footnotes{
+  margin-bottom: 15px;
 }
 
 ul>.footnote-1,
@@ -945,7 +950,7 @@ li {
 
 .directory {
   width: 100vw;
-  height: 58vh;
+  height: auto;
   background-color: #f5f5f7;
   display: flex;
   justify-content: center;
@@ -1001,7 +1006,8 @@ li {
 
 .footer-content {
   width: 980px;
-  height: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .footer>.footer-content>.upper {
@@ -1113,7 +1119,7 @@ li {
   }
 
   .slider-container {
-    height: 560px;
+    height: auto;
   }
 
   .dots>.pause-resume-btn {
@@ -1338,7 +1344,7 @@ li {
 
   /* Movie-slider */
   .slider-container {
-    height: 85vh;
+    height: auto;
   }
 
   .dots>.pause-resume-btn {
@@ -1351,8 +1357,8 @@ li {
   }
 
   .apple-content {
-    height: 19.5em;
-    padding: 20px 10px 50px 10px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
     margin: 0 10px 0 10px;
   }
 
@@ -1541,7 +1547,7 @@ li {
   /* MOVIE SLIDER STARTS */
   .slider-container {
     width: 100vw;
-    height: 76vh;
+    height: auto;
   }
 
   .dots>.pause-resume-btn {
@@ -1648,8 +1654,8 @@ li {
   }
 
   .footer-content {
-    height: 140px;
     width: 800px;
+    height: auto;
   }
 
   .footer>.footer-content>.upper {
@@ -1725,7 +1731,7 @@ li {
   }
 
   .apple-content {
-    height: 380px;
+    height: auto;
   }
 
   .directory-content>.responsiveContent-scnd {
@@ -1906,7 +1912,7 @@ li {
 
   #slider {
     width: 700px;
-    height: 500px;
+    height: auto;
     overflow: hidden;
     position: relative;
   }
@@ -1991,12 +1997,13 @@ li {
   }
 
   #dots-container {
-    position: absolute;
+    position: relative;
     bottom: 1em;
     left: 54%;
     transform: translateX(-50%);
     display: flex;
-    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
   }
 
   .dot {
@@ -2046,10 +2053,7 @@ li {
 }
 
 @media screen and (max-width:670px) {
-  .apple-content {
-    height: 25em;
-  }
-
+ 
   .directory {
     padding-top: 20px;
   }
@@ -2142,11 +2146,11 @@ li {
   }
 
   .global-footer {
-    height: 520px;
+    height: auto;
   }
 
   .apple-content {
-    height: 520px;
+    height: auto;
   }
 
   .lower>ul {
@@ -2209,7 +2213,7 @@ li {
   }
 
   #slider {
-    height: 80vh;
+    height: auto;
   }
 
   #dots-container {
@@ -2278,7 +2282,7 @@ li {
 
   .slider-container {
     width: 100vw;
-    height: 65vh;
+    height: auto;
     overflow-x: hidden;
   }
 
@@ -2288,11 +2292,11 @@ li {
 
   .global-footer {
     width: 100vw;
-    height: 590px;
+    height: auto;
   }
 
   .apple-content {
-    height: 570px;
+    height: auto;
   }
 
   ul>.footnote-1,
@@ -2358,7 +2362,7 @@ li {
   }
 
   #pauseResumeBtn {
-    right: 15em;
+    right: 15.5em;
     bottom: 6px;
   }
 
@@ -2395,26 +2399,4 @@ li {
   }
 }
 
-@media screen and (min-height:610px) {
- .navbar>.shopNow {
-  height: 110px;
-  }
- 
-  .firstPage {
-  margin-top: 9px;
-  }
-  
-  .shopNow>h5 {
-  font-size: 12px;
-  }  
-  
-  #slider{
-    height:62vh;
-  } 
-  
-  #pauseResumeBtn{
-    right: 13em;
-  }
-  .apple-content{
-    height:655px
-}
+
