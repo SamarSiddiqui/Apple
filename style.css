@@ -307,7 +307,7 @@ h5>a>i {
 
 nav>.headingFirst {
   height: 220px;
-  color: white;
+  color: green;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2403,9 +2403,17 @@ li {
   .firstPage {
   margin-top: 9px;
   }
- 
+  nav>.headingFirst>h1{
+  color: red;
+ }
   .shopNow>h5 {
   width: 350px;
   font-size: 12px;
-  }       
+  }  
+  #slider{
+    height:55vh;
+  } 
+  #pauseResumeBtn{
+    right: 13em;
+  }
 }
