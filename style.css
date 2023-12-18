@@ -2395,7 +2395,7 @@ li {
   }
 }
 
-@media screen and (min-height:620px) {
+@media screen and (min-height:610px) {
  .navbar>.shopNow {
   height: 110px;
   }
@@ -2416,5 +2416,5 @@ li {
     right: 13em;
   }
   .apple-content{
-    height:650px
+    height:655px
 }
