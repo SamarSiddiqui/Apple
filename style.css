@@ -2403,16 +2403,15 @@ li {
   .firstPage {
   margin-top: 9px;
   }
-  nav>.headingFirst>h1{
-  color: red;
- }
+  
   .shopNow>h5 {
-  width: 350px;
   font-size: 12px;
   }  
+  
   #slider{
-    height:55vh;
+    height:82vh;
   } 
+  
   #pauseResumeBtn{
     right: 13em;
   }
