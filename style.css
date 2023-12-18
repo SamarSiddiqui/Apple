@@ -272,12 +272,12 @@ h5>a>i {
 
 .dropdown-content2>ul {
   list-style: none;
-  padding-bottom: 100px;
-  margin-top: 30px;
+  padding-bottom: 200px;
+  margin-top: 40px;
 }
 
 .dropdown-content2>ul>li {
-  padding: 10px 0 0 30px;
+  padding: 10px 0 0 40px;
   margin: 1px 10px;
   cursor: pointer;
 }
@@ -293,7 +293,7 @@ h5>a>i {
 .dropdown-content2>ul>li>a {
   text-decoration: none;
   width: 200px;
-  color: #d2d2d7;
+  color: #ebebf0;
   font-size: 2em;
   font-weight: bold;
 }
@@ -2320,12 +2320,21 @@ li {
 
 @media screen and (max-width:322px) {
   .shopNow>h5 {
-    width: 270px;
-    font-size: 11px;
+    width: 290px;
+    font-size: 12px;
   }
+  .navbar>.shopNow{
+    height: 115px;
+  }
+  .firstPage{
+    margin-top: 15px;
+  }
+  .shopNow>h5>a {
+    font-size: 12px;
+  }  
 
   .shopNow>h5>a {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .firstPage>.titaniumImg>img {
