@@ -2394,3 +2394,18 @@ li {
     padding: 0 3.5px;
   }
 }
+
+@media screen and (min-height:895px) {
+ .navbar>.shopNow {
+  height: 110px;
+  }
+ 
+  .firstPage {
+  margin-top: 9px;
+  }
+ 
+  .shopNow>h5 {
+  width: 350px;
+  font-size: 12px;
+  }       
+}
