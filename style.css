@@ -307,7 +307,7 @@ h5>a>i {
 
 nav>.headingFirst {
   height: 220px;
-  color: yellow;
+  color: pink;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2409,7 +2409,7 @@ li {
   }  
   
   #slider{
-    height:72vh;
+    height:62vh;
   } 
   
   #pauseResumeBtn{
