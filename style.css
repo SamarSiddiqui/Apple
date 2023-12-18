@@ -307,7 +307,7 @@ h5>a>i {
 
 nav>.headingFirst {
   height: 220px;
-  color: green;
+  color: white;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2395,7 +2395,7 @@ li {
   }
 }
 
-@media screen and (min-height:895px) {
+@media screen and (min-height:606px) {
  .navbar>.shopNow {
   height: 110px;
   }
