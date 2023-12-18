@@ -307,7 +307,7 @@ h5>a>i {
 
 nav>.headingFirst {
   height: 220px;
-  color: gold;
+  color: white;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2416,5 +2416,5 @@ li {
     right: 13em;
   }
   .apple-content{
-    height:665px
+    height:656px
 }
