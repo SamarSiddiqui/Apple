@@ -307,7 +307,7 @@ h5>a>i {
 
 nav>.headingFirst {
   height: 220px;
-  color: gold;
+  color: white;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2164,6 +2164,7 @@ li {
     width: 350px;
     font-size: 12px;
     line-height: 15px;
+    padding-bottom: 15px;
 }
 
   .shopNow>h5>a {
