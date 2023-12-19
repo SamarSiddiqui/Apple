@@ -1151,7 +1151,6 @@ li {
   .shopNow>h5 {
     margin-top: 20px;
     font-size: 14px;
-    color: fuchsia;
   }
 
   .shopNow>h5>a {
@@ -1450,7 +1449,6 @@ li {
 
   .shopNow>h5 {
     padding-top: 15px;
-    color: yellow;
   }
 
   .shopNow>h5>a {
@@ -1718,8 +1716,6 @@ li {
     text-align: center;
     padding-bottom: 10px;
     line-height: 1.5;
-    color: green;
-    
   }
 
   .shopNow>h5>a {
@@ -1763,7 +1759,6 @@ li {
     font-size: 13px;
     width: 600px;
     margin-top: 30px;
-    color: red;
   }
 
   .shopNow>h5>a {
@@ -2167,11 +2162,10 @@ li {
 @media screen and (max-width:426px) {
   .shopNow>h5 {
     width: 350px;
-    padding-top: 20px;
-    font-size: 10.8px;
+/*     padding-top: 20px; */
+    font-size: 2px;
     line-height: 15px;
-    color: blue;
-  }
+}
 
   .shopNow>h5>a {
     line-height: 17px;
@@ -2333,7 +2327,6 @@ li {
   .shopNow>h5 {
     width: 290px;
     font-size: 12px;
-    color: pink;
   }
   .navbar>.shopNow{
     height: 115px;
