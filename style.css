@@ -1147,7 +1147,6 @@ li {
   .shopNow>h5 {
     margin-top: 20px;
     font-size: 14px;
-    color:fuchsia;
   }
 
   .shopNow>h5>a {
@@ -1446,7 +1445,6 @@ li {
 
   .shopNow>h5 {
     padding-top: 15px;
-    color:yellow;
   }
 
   .shopNow>h5>a {
@@ -1714,7 +1712,6 @@ li {
     text-align: center;
     padding-bottom: 10px;
     line-height: 1.5;
-    color:green;
   }
 
   .shopNow>h5>a {
@@ -1755,14 +1752,14 @@ li {
 
 @media screen and (max-width:730px) {
   .shopNow>h5 {
-    font-size: 13px;
+    font-size: 14px;
     width: 600px;
     margin-top: 15px;
-    color:red;
+    padding-top: 10px;
   }
 
   .shopNow>h5>a {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .firstPage>.titaniumImg>.iphonePro-2 {
@@ -2165,8 +2162,7 @@ li {
     font-size: 12px;
     line-height: 15px;
     margin-top: 13px;
-    color:blue;
-}
+ }
 
   .shopNow>h5>a {
     line-height: 17px;
@@ -2330,8 +2326,7 @@ li {
     font-size: 12px;
     margin-top: 40px;
     padding:0;
-    color:pink;
-  }
+ }
   .navbar>.shopNow{
     height: 115px;
   }
