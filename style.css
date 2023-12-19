@@ -2323,6 +2323,8 @@ li {
   .shopNow>h5 {
     width: 290px;
     font-size: 12px;
+    margin-top: 40px;
+    padding:0;
   }
   .navbar>.shopNow{
     height: 115px;
