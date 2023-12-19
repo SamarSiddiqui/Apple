@@ -1094,11 +1094,7 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  .iPhone15Wrapper {
-    margin-top: 100px;
-  }
-
-  .contentWrapper>.firstHead {
+    .contentWrapper>.firstHead {
     font-size: 22px;
   }
 
