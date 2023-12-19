@@ -196,7 +196,7 @@ ul {
 .navbar>.shopNow {
   position: absolute;
   width: 100vw;
-  height: 17%;
+  height: 20%;
   background-color: rgb(23, 23, 23);
   display: flex;
   justify-content: center;
@@ -209,7 +209,6 @@ ul {
   color: white;
   font-weight: lighter;
   font-size: 14px;
-  padding-top: 15px;
 }
 
 .shopNow>h5>a {
@@ -303,11 +302,12 @@ h5>a>i {
   width: 100vw;
   height: auto;
   position: relative;
+  margin-top: 10px;
 }
 
 nav>.headingFirst {
   height: 220px;
-  color: white;
+  color: pink;
   background-color: black;
   text-align: center;
   z-index: 1;
@@ -2114,7 +2114,7 @@ li {
   }
 
   #pauseResumeBtn {
-    right: 100px;
+    right: 9em;
   }
 }
 
@@ -2222,7 +2222,7 @@ li {
   }
 
   #pauseResumeBtn {
-    right: 11em;
+    right: 13em;
   }
 
   .contentWrapper>img {
@@ -2288,7 +2288,7 @@ li {
   }
 
   #pauseResumeBtn {
-    right: 13em;
+    right: 14em;
   }
 
   .global-footer {
