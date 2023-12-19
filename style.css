@@ -1147,6 +1147,7 @@ li {
   .shopNow>h5 {
     margin-top: 20px;
     font-size: 14px;
+    color:fuchsia;
   }
 
   .shopNow>h5>a {
@@ -1445,6 +1446,7 @@ li {
 
   .shopNow>h5 {
     padding-top: 15px;
+    color:yellow;
   }
 
   .shopNow>h5>a {
@@ -1712,6 +1714,7 @@ li {
     text-align: center;
     padding-bottom: 10px;
     line-height: 1.5;
+    color:green;
   }
 
   .shopNow>h5>a {
@@ -2162,6 +2165,7 @@ li {
     font-size: 12px;
     line-height: 15px;
     margin-top: 13px;
+    color:blue;
 }
 
   .shopNow>h5>a {
@@ -2326,6 +2330,7 @@ li {
     font-size: 12px;
     margin-top: 40px;
     padding:0;
+    color:pink;
   }
   .navbar>.shopNow{
     height: 115px;
