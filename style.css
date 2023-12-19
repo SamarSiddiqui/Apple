@@ -1754,7 +1754,8 @@ li {
   .shopNow>h5 {
     font-size: 13px;
     width: 600px;
-    margin-top: 30px;
+    margin-top: 15px;
+    color:red;
   }
 
   .shopNow>h5>a {
